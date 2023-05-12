@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-left {
+    font-weight: 399;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;
+    margin-left: 42px;
+    margin-top: 47px;
+    display: inline-block;
+}
+
+a {
+    margin-right: 36px;
+}
+
+.button-1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    width: 124px;
+    height: 51px;
+}
+
+img {
+    margin-top: 163px;
+    margin-left: 121px;
+}
+
+.section-right {
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+    margin-left: 85px;
+    margin-bottom: 47px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+    height: 99px;
+    margin-left: 85px;
+}
+
+.button-2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    width: 124px;
+    height: 51px;
+    margin-left: 85px;
+    margin-top: 55px;
+}
+
+@media screen and (max-width:390px) {
+    a {
+        display: none;
+    }
+
+    .button-1 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        background: #6FBF44;
+        border: 1px solid #4CB538;
+        border-radius: 6px;
+        cursor: pointer;
+        width: 91px;
+        height: 31px;
+        position: absolute;
+        left: 284px;
+        top: 17px;
+        right: 15px;
+    }
+
+    img {
+        position: absolute;
+        top: 375px;
+        bottom: 22px;
+        width: 312px;
+        height: 288px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        color: #161A48;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 124px;
+        width: 278px;
+        height: 60px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        top: 213px;
+        width: 304px;
+        height: 165px;
+    }
+
+    .button-2 {
+        position: absolute;
+        top: 370px;
+    }
+}
