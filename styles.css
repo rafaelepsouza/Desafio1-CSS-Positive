@@ -8,12 +8,8 @@
 }
 
 .section-left {
-    font-weight: 399;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 0.875px;
+    
     color: #17233D;
-    cursor: pointer;
     margin-left: 42px;
     margin-top: 47px;
     display: inline-block;
@@ -21,11 +17,26 @@
 
 a {
     margin-right: 36px;
+    font-weight: 500;
+    cursor: pointer;
+    font-weight: 399;
+    font-size: 20px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+}
+
+a:hover {
+    color: rgba(0, 255, 255, 0.89);
+    opacity: 0.8;
+}
+
+a:active {
+    opacity: 0.5;
 }
 
 .button-1 {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     letter-spacing: 1px;
     color: #FFFFFF;
@@ -36,6 +47,14 @@ a {
     border: none;
     width: 124px;
     height: 51px;
+}
+
+.button-1:hover {
+    opacity: 0.8;
+}
+
+.button-1:active {
+    opacity: 0.5;
 }
 
 img {
@@ -72,7 +91,7 @@ p {
 
 .button-2 {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     letter-spacing: 1px;
     color: #FFFFFF;
@@ -81,11 +100,21 @@ p {
     border-radius: 6px;
     cursor: pointer;
     border: none;
-    width: 124px;
-    height: 51px;
+    width: 150px;
+    height: 60px;
     margin-left: 85px;
     margin-top: 55px;
 }
+
+.button-2:hover {
+    opacity: 0.8;
+}
+
+.button-2:active {
+    opacity: 0.5;
+}
+
+
 
 @media screen and (max-width:390px) {
     a {
